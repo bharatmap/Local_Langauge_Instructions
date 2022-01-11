@@ -3,13 +3,13 @@ Indian native langauges Turn by Turn Instructions
 
 List Of langauges 
 
-Gujarati
-Hindi
-Kannada
-Malayalam
-Marathi
-Odia
-Punjabi
-Sanskrit
-Tamil
-Telugu
+Gujarati ,
+Hindi ,
+Kannada ,
+Malayalam , 
+Marathi ,
+Odia , 
+Punjabi , 
+Sanskrit ,
+Tamil ,
+Telugu ,
