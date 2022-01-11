@@ -111,26 +111,26 @@
         },
         "end of road": {
             "default": {
-                "default": "Turn {modifier}",
-                "name": "Turn {modifier} onto {way_name}",
-                "destination": "Turn {modifier} towards {destination}"
+                "default": "मुड़िए {modifier}",
+                "name": "{way_name} पर {modifier} मुड़िए ",
+                "destination": "{destination} पर {modifier} मुड़िए"
             },
             "straight": {
-                "default": "Continue straight",
-                "name": "Continue straight onto {way_name}",
-                "destination": "Continue straight towards {destination}"
+                "default": "सीधा जारी रखें",
+                "name": "{way_name} पर सीधे चलते रहें",
+                "destination": "{गंतव्य} की ओर सीधे बढ़ते रहें"
             },
             "uturn": {
-                "default": "Make a U-turn at the end of the road",
-                "name": "Make a U-turn onto {way_name} at the end of the road",
-                "destination": "Make a U-turn towards {destination} at the end of the road"
+                "default": "सड़क के अंत में यू-टर्न लें",
+                "name": "सड़क के अंत में {way_name} पर यू-टर्न लें",
+                "destination": "सड़क के अंत में {destination} की ओर यू-टर्न लें"
             }
         },
         "fork": {
             "default": {
-                "default": "Keep {modifier} at the fork",
-                "name": "Keep {modifier} at the fork onto {way_name}",
-                "destination": "Keep {modifier} at the fork towards {destination}"
+                "default": "दोराहे पर {modifier} रखें",
+                "name": "{way_name} पर दोराहे पर {modifier} रहें",
+                "destination": "दोराहे पर {destination} की ओर {modifier} रहें"
             },
             "slight left": {
                 "default": "Keep left at the fork",
