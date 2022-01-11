@@ -17,70 +17,70 @@
                 "10": "10th"
             },
             "direction": {
-                "north": "north",
-                "northeast": "northeast",
-                "east": "east",
-                "southeast": "southeast",
-                "south": "south",
-                "southwest": "southwest",
-                "west": "west",
-                "northwest": "northwest"
+                "north": "उत्तर",
+                "northeast": "ईशान कोण",
+                "east": "पूर्व",
+                "southeast": "दक्षिण-पूर्व",
+                "south": "दक्षिण",
+                "southwest": "दक्षिण पश्चिम",
+                "west": "पश्चिम",
+                "northwest": "उत्तर पश्चिम"
             },
             "modifier": {
-                "left": "left",
-                "right": "right",
-                "sharp left": "sharp left",
-                "sharp right": "sharp right",
-                "slight left": "slight left",
-                "slight right": "slight right",
-                "straight": "straight",
-                "uturn": "U-turn"
+                "left": "बाएं",
+                "right": "दाईं",
+                "sharp left": "तेज बाएं",
+                "sharp right": "तेज दाहिना",
+                "slight left": "थोड़ा बाएं",
+                "slight right": "थोड़ा सही",
+                "straight": "सीधा",
+                "uturn": "यू टर्न"
             },
             "lanes": {
-                "xo": "Keep right",
-                "ox": "Keep left",
-                "xox": "Keep in the middle",
-                "oxo": "Keep left or right"
+                "xo": "दाईं ओर चलते रहें",
+                "ox": "बाईं ओर रहें",
+                "xox": "बीच में रखें",
+                "oxo": "बाएँ या दाएँ रखें"
             }
         },
         "modes": {
             "ferry": {
-                "default": "Take the ferry",
-                "name": "Take the ferry {way_name}",
-                "destination": "Take the ferry towards {destination}"
+                "default": "फेरी ले लो",
+                "name": "फेरी ले लो {way_name}",
+                "destination": "फेरी की ओर ले जाएं {destination}"
             }
         },
         "arrive": {
             "default": {
-                "default": "You have arrived at your {nth} destination"
+                "default": "आप अपने {nth} गंतव्य पर पहुंच गए हैं"
             },
             "left": {
-                "default": "You have arrived at your {nth} destination, on the left"
+                "default": "आप अपने {nth} गंतव्य पर, बाईं ओर आ चुके हैं"
             },
             "right": {
-                "default": "You have arrived at your {nth} destination, on the right"
+                "default": "आप अपने {nth} गंतव्य पर, दाईं ओर पहुंच गए हैं"
             },
             "sharp left": {
-                "default": "You have arrived at your {nth} destination, on the left"
+                "default": "आप अपने {nth} गंतव्य पर, बाईं ओर आ चुके हैं"
             },
             "sharp right": {
-                "default": "You have arrived at your {nth} destination, on the right"
+                "default": "आप अपने {nth} गंतव्य पर, दाईं ओर पहुंच गए हैं"
             },
             "slight right": {
-                "default": "You have arrived at your {nth} destination, on the right"
+                "default": "आप अपने {nth} गंतव्य पर, दाईं ओर पहुंच गए हैं"
             },
             "slight left": {
-                "default": "You have arrived at your {nth} destination, on the left"
+                "default": "आप अपने {nth} गंतव्य पर, बाईं ओर आ चुके हैं"
             },
             "straight": {
-                "default": "You have arrived at your {nth} destination, straight ahead"
+                "default": "आप सीधे अपने {nth} गंतव्य पर पहुंच गए हैं"
             }
         },
         "continue": {
             "default": {
-                "default": "Continue {modifier}",
-                "name": "Continue {modifier} onto {way_name}",
-                "destination": "Continue {modifier} towards {destination}"
+                "default": "जारी रखें {modifier}",
+                "name": "{way_name} पर {modifier} जारी रखें",
+                "destination": "{modifier} को {destination} की ओर जारी रखें"
             },
             "straight": {
                 "default": "Continue straight",
