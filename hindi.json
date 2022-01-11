@@ -133,14 +133,14 @@
                 "destination": "दोराहे पर {destination} की ओर {modifier} रहें"
             },
             "slight left": {
-                "default": "Keep left at the fork",
-                "name": "Keep left at the fork onto {way_name}",
-                "destination": "Keep left at the fork towards {destination}"
+                "default": "कांटे पर बाईं ओर रखें",
+                "name": "दोराहे पर {way_name} पर बाएं बने रहें",
+                "destination": "दोराहे पर {गंतव्य} की ओर बाएं रहें"
             },
             "slight right": {
-                "default": "Keep right at the fork",
-                "name": "Keep right at the fork onto {way_name}",
-                "destination": "Keep right at the fork towards {destination}"
+                "default": "कांटे पर दाएं रखें",
+                "name": "दोराहे पर {way_name} पर दाएं बने रहें",
+                "destination": "दोराहे पर {गंतव्य} की ओर दाएं रहें"
             },
             "sharp left": {
                 "default": "Take a sharp left at the fork",
