@@ -83,30 +83,30 @@
                 "destination": "{modifier} को {destination} की ओर जारी रखें"
             },
             "straight": {
-                "default": "Continue straight",
-                "name": "Continue onto {way_name}",
-                "destination": "Continue towards {destination}"
+                "default": "सीधा जारी रखें",
+                "name": "{way_name} पर जारी रखें",
+                "destination": "{destination} की ओर बढ़ते रहें"
             },
             "slight left": {
-                "default": "Continue slightly left",
-                "name": "Continue slightly left onto {way_name}",
-                "destination": "Continue slightly left towards {destination}"
+                "default": "थोड़ा बाएँ जारी रखें",
+                "name": "{way_name} पर थोड़ा बाएं चलते रहें",
+                "destination": "{destination} की ओर थोड़ा बाएं चलते रहें"
             },
             "slight right": {
-                "default": "Continue slightly right",
-                "name": "Continue slightly right onto {way_name}",
-                "destination": "Continue slightly right towards {destination}"
+                "default": "थोड़ा दाएं जारी रखें",
+                "name": "{way_name} की तरफ़ थोड़ा दाएं जारी रखें",
+                "destination": "{destination}की तरफ़ थोड़ा दाएं जारी रखें"
             },
             "uturn": {
-                "default": "Make a U-turn",
-                "name": "Make a U-turn onto {way_name}",
-                "destination": "Make a U-turn towards {destination}"
+                "default": "एक यू - टर्न लें",
+                "name": "{way_name} पर यू-टर्न लें",
+                "destination": "{destination} की ओर यू-टर्न लें"
             }
         },
         "depart": {
             "default": {
-                "default": "Head {direction}",
-                "name": "Head {direction} on {way_name}"
+                "default": "हेड {direction}",
+                "name": "{way_name} पर {direction} पर जाएं"
             }
         },
         "end of road": {
