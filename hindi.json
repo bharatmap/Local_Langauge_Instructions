@@ -143,17 +143,17 @@
                 "destination": "दोराहे पर {गंतव्य} की ओर दाएं रहें"
             },
             "sharp left": {
-                "default": "Take a sharp left at the fork",
-                "name": "Take a sharp left at the fork onto {way_name}",
-                "destination": "Take a sharp left at the fork towards {destination}"
+                "default": "कांटे के पास एक तेज बायीं ओर मुड़ें" /*Take a sharp left at the fork*/
+                "name": "{way_name} पर दोराहे पर ठीक बाईं ओर मुड़ें" /*Take a sharp left at the fork onto {way_name}*/
+                "destination": "दोराहे पर {गंतव्य} की ओर ठीक बाईं ओर मुड़ें" /*"Take a sharp left at the fork towards {destination}"*/
             },
             "sharp right": {
-                "default": "Take a sharp right at the fork",
-                "name": "Take a sharp right at the fork onto {way_name}",
-                "destination": "Take a sharp right at the fork towards {destination}"
+                "default": "कांटे के पास एक तेज दाईं ओर मुड़ें" /*Take a sharp right at the fork*/ 
+                "name": "{way_name} पर दोराहे पर ठीक दाईं ओर मुड़ें" /*Take a sharp right at the fork onto {way_name}*/ 
+                "destination": "दोराहे पर {गंतव्य} की ओर ठीक दाईं ओर मुड़ें" /*"Take a sharp right at the fork towards {destination}"*/
             },
             "uturn": {
-                "default": "Make a U-turn",
+                "default":  "एक यू - टर्न लें"  /* "Make a U-turn",*/
                 "name": "Make a U-turn onto {way_name}",
                 "destination": "Make a U-turn towards {destination}"
             }
