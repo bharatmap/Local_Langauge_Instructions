@@ -3,7 +3,7 @@ Indian native langauges Turn by Turn Instructions
 
 List Of langauges 
 
-Gujarati ,
+Assamese ,
 Hindi ,
 Kannada ,
 Malayalam , 
@@ -13,3 +13,4 @@ Punjabi ,
 Sanskrit ,
 Tamil ,
 Telugu ,
+Gujarati
