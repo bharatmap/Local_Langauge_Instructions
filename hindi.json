@@ -275,126 +275,138 @@
         },
         "on ramp": {
             "default": {
-                "default": "Take the ramp",
-                "name": "Take the ramp onto {way_name}",
-                "destination": "Take the ramp towards {destination}"
-            },
+                
+                "default": "रैंप लें"/*"Take the ramp",*/
+                "name": "{way_name} पर रैंप लें"/*"Take the ramp onto {way_name}",*/
+                "destination": "रैंप लें {destination} की ओर"/*"Take the ramp towards {destination}"*/
+              },
             "left": {
-                "default": "Take the ramp on the left",
-                "name": "Take the ramp on the left onto {way_name}",
-                "destination": "Take the ramp on the left towards {destination}"
-            },
+               
+                "default": "बाईं ओर रैंप को लें"/*"Take the ramp on the left",*/
+                "name": "{way_name} पर बाईं ओर रैंप लें"  /*Take the ramp on the left onto {way_name}*/
+                "destination": "रैंप को बाईं ओर {destination} की ओर ले जाएं"/*"Take the ramp on the left towards {destination}"*/
+                
+             },
             "right": {
-                "default": "Take the ramp on the right",
-                "name": "Take the ramp on the right onto {way_name}",
-                "destination": "Take the ramp on the right towards {destination}"
+                
+                "default": "दाईं ओर रैंप को लें"/*"Take the ramp on the right",*/
+                "name": "{way_name} पर दाईं ओर रैंप लें", /*"Take the ramp on the right onto {way_name}"*/
+                "destination": "{destination} की ओर दाईं ओर रैंप को ले "/*"Take the ramp on the right towards {destination}"*/
+                
             },
             "sharp left": {
-                "default": "Take the ramp on the left",
-                "name": "Take the ramp on the left onto {way_name}",
-                "destination": "Take the ramp on the left towards {destination}"
+                
+                "default": "पूरी बाईं ओर रैंप लें" /*"Take the ramp on the sharp left",*/
+                "name": "{way_name} पर पूरी बाईं ओर रैंप लें" /*"Take the ramp on the sharp left onto {way_name}",*/
+                "destination": "{destination} पर पूरी बाईं ओर रैंप लें"/*"Take the ramp on the sharp left towards {destination}"*/
+                
             },
             "sharp right": {
-                "default": "Take the ramp on the right",
-                "name": "Take the ramp on the right onto {way_name}",
-                "destination": "Take the ramp on the right towards {destination}"
+                
+                "default": "पूरी दाईं ओर रैंप लें"/*"Take the ramp on the sharp right",*/
+                "name": "{way_name} पर पूरी दाईं ओर रैंप लें"/*"Take the ramp on the sharp right onto {way_name}",*/
+                "destination": "{destination} पर पूरी दाईं ओर रैंप लें"/*"Take the ramp on the sharp right towards {destination}"*/
             },
             "slight left": {
-                "default": "Take the ramp on the left",
-                "name": "Take the ramp on the left onto {way_name}",
-                "destination": "Take the ramp on the left towards {destination}"
+                
+                "default": "थोड़ा दाईं ओर रैंप लें"/*"Take the ramp on the slight left",*/
+                "name": "{way_name} पर थोड़ा बाईं ओर रैंप लें"/*"Take the ramp on the slight left onto {way_name}",*/
+                "destination": "{destination} पर थोड़ा बाईं ओर रैंप लें"/*"Take the ramp on the slight left towards {destination}"*/
+                
             },
             "slight right": {
-                "default": "Take the ramp on the right",
-                "name": "Take the ramp on the right onto {way_name}",
-                "destination": "Take the ramp on the right towards {destination}"
+                
+                "default": "थोड़ा दाईं ओर रैंप लें"/*"Take the ramp on the slight right",*/
+                "name": "{way_name} पर थोड़ा दाईं ओर रैंप लें"/*"Take the ramp on the slight right onto {way_name}",*/
+                "destination": "{destination} पर थोड़ा दाईं ओर रैंप लें"/*"Take the ramp on the slight right towards {destination}"*/
+                
             }
         },
         "rotary": {
             "default": {
                 "default": {
-                    "default": "Enter the rotary",
-                    "name": "Enter the rotary and exit onto {way_name}",
-                    "destination": "Enter the rotary and exit towards {destination}"
+                    "default": "रोटरी में प्रवेश करें"/*"Enter the rotary",*/
+                    "name": "रोटरी में प्रवेश करें और {way_name} पर बाहर निकलें"/*"Enter the rotary and exit onto {way_name}",*/
+                    "destination": "रोटरी में प्रवेश करें और {destination} की ओर बाहर निकलें"/*"Enter the rotary and exit towards {destination}"*/
                 },
                 "name": {
-                    "default": "Enter {rotary_name}",
-                    "name": "Enter {rotary_name} and exit onto {way_name}",
-                    "destination": "Enter {rotary_name} and exit towards {destination}"
+                    "default": "{rotary_name} प्रवेश करें"/*"Enter {rotary_name}",*/
+                    "name": "{rotary_name} में प्रवेश करें और {way_name} पर बाहर निकलें"/*"Enter {rotary_name} and exit onto {way_name}",*/
+                    "destination": "{rotary_name} में प्रवेश करें और {destination} की ओर निकलें"/*"Enter {rotary_name} and exit towards {destination}"*/
                 },
                 "exit": {
-                    "default": "Enter the rotary and take the {exit_number} exit",
-                    "name": "Enter the rotary and take the {exit_number} exit onto {way_name}",
-                    "destination": "Enter the rotary and take the {exit_number} exit towards {destination}"
+                    "default": "रोटरी में प्रवेश करें और {exit_number} से बाहर निकलें"/*"Enter the rotary and take the {exit_number} exit",*/
+                    "name": "रोटरी में प्रवेश करें और {way_name} पर {exit_number} से बाहर निकलें"/*"Enter the rotary and take the {exit_number} exit onto {way_name}",*/
+                    "destination": "रोटरी में प्रवेश करें और {exit_number} से {destination} की ओर निकलें""/*"Enter the rotary and take the {exit_number} exit towards {destination}"*/
                 },
                 "name_exit": {
-                    "default": "Enter {rotary_name} and take the {exit_number} exit",
-                    "name": "Enter {rotary_name} and take the {exit_number} exit onto {way_name}",
-                    "destination": "Enter {rotary_name} and take the {exit_number} exit towards {destination}"
+                    "default": "{rotary_name} में प्रवेश करें और {exit_number} से बाहर निकलें"/*"Enter {rotary_name} and take the {exit_number} exit",*/
+                    "name": "{rotary_name} में प्रवेश करें और {way_name} पर {exit_number} से बाहर निकलें"/*"Enter {rotary_name} and take the {exit_number} exit onto {way_name}",*/
+                    "destination": "{rotary_name} में प्रवेश करें और {exit_number} से {destination} की ओर निकलें"/*"Enter {rotary_name} and take the {exit_number} exit towards {destination}"*/
                 }
             }
         },
         "roundabout": {
             "default": {
                 "exit": {
-                    "default": "Enter the roundabout and take the {exit_number} exit",
-                    "name": "Enter the roundabout and take the {exit_number} exit onto {way_name}",
-                    "destination": "Enter the roundabout and take the {exit_number} exit towards {destination}"
+                    "default": "चौराहे में प्रवेश करें और {निकास_नंबर} से बाहर निकलें"/*"Enter the roundabout and take the {exit_number} exit",*/
+                    "name": "चौराहे में प्रवेश करें और {way_name} पर {exit_number} से बाहर निकलें"/*"Enter the roundabout and take the {exit_number} exit onto {way_name}",*/
+                    "destination": "चौराहे में प्रवेश करें और {exit_number} से {destination} की ओर निकलें"/*"Enter the roundabout and take the {exit_number} exit towards {destination}"*/
                 },
                 "default": {
-                    "default": "Enter the roundabout",
-                    "name": "Enter the roundabout and exit onto {way_name}",
-                    "destination": "Enter the roundabout and exit towards {destination}"
+                    "default": "चौराहे में प्रवेश करें"/*"Enter the roundabout",*/
+                    "name": "चौराहे में प्रवेश करें और {way_name} पर बाहर निकलें"/*"Enter the roundabout and exit onto {way_name}",*/
+                    "destination": "चौराहे में प्रवेश करें और {destination} की ओर निकलें"/*"Enter the roundabout and exit towards {destination}"*/
                 }
             }
         },
         "roundabout turn": {
             "default": {
-                "default": "At the roundabout make a {modifier}",
-                "name": "At the roundabout make a {modifier} onto {way_name}",
-                "destination": "At the roundabout make a {modifier} towards {destination}"
+                "default": "चौराहे पर एक {modifier} बनाएं"/*"At the roundabout make a {modifier}",*/
+                "name": "चौराहे पर {way_name} पर एक {modifier} बनाएं"/*"At the roundabout make a {modifier} onto {way_name}",*/
+                "destination": "चौराहे पर {destination} की ओर एक {modifier} बनाएं"/*"At the roundabout make a {modifier} towards {destination}"*/
             },
             "left": {
-                "default": "At the roundabout turn left",
-                "name": "At the roundabout turn left onto {way_name}",
-                "destination": "At the roundabout turn left towards {destination}"
+                "default": "गोल चक्कर पर बाएं मुड़ें"/*"At the roundabout turn left",*/
+                "name": "चौराहे पर {way_name} पर बाएं मुड़ें"/*"At the roundabout turn left onto {way_name}",*/
+                "destination": "चौराहे पर बाएं मुड़ें {destination} की ओर"/*"At the roundabout turn left towards {destination}"*/
             },
             "right": {
-                "default": "At the roundabout turn right",
-                "name": "At the roundabout turn right onto {way_name}",
-                "destination": "At the roundabout turn right towards {destination}"
+                "default": "चौराहे पर दाएं मुड़ें"/*"At the roundabout turn right",*/
+                "name": "चौराहे पर {way_name} पर दाएं मुड़ें"/*"At the roundabout turn right onto {way_name}",*/
+                "destination": "चौराहे पर {destination} की ओर दाएं मुड़ें"/*"At the roundabout turn right towards {destination}"*/
             },
             "straight": {
-                "default": "At the roundabout continue straight",
-                "name": "At the roundabout continue straight onto {way_name}",
-                "destination": "At the roundabout continue straight towards {destination}"
+                "default": "चौराहे पर सीधे चलते रहें"/*"At the roundabout continue straight",*/
+                "name": "चौराहे पर सीधे {way_name} पर चलते रहें"/*"At the roundabout continue straight onto {way_name}",*/
+                "destination": "चौराहे पर सीधे {destination} की ओर बढ़ते रहें"/*"At the roundabout continue straight towards {destination}"*/
             }
         },
         "turn": {
             "default": {
-                "default": "Make a {modifier}",
-                "name": "Make a {modifier} onto {way_name}",
-                "destination": "Make a {modifier} towards {destination}"
+                "default": "{modifier} मुड़ें"/*"Make a {modifier}",*/
+                "name": "{way_name} की तरफ़ {modifier} मुड़ें"/*"Make a {modifier} onto {way_name}",*/
+                "destination": "{destination} की ओर {modifier} मुड़ें"/*"Make a {modifier} towards {destination}"*/
             },
             "left": {
-                "default": "Turn left",
-                "name": "Turn left onto {way_name}",
-                "destination": "Turn left towards {destination}"
+                "default": "बाएं मुड़ें"/*"Turn left",*/
+                "name": "{way_name} पर बाएं मुड़ें"/*"Turn left onto {way_name}",*/
+                "destination": "{destination} की ओर बाएं मुड़ें"/*"Turn left towards {destination}"*/
             },
             "right": {
-                "default": "Turn right",
-                "name": "Turn right onto {way_name}",
-                "destination": "Turn right towards {destination}"
+                "default": "दायें मुड़ें",
+                "name": "{way_name} पर दाएं मुड़ें"/*"Turn right onto {way_name}",*/
+                "destination": "{destination} की ओर दाएं मुड़ें"/*"Turn right towards {destination}"*/
             },
             "straight": {
-                "default": "Go straight",
-                "name": "Go straight onto {way_name}",
-                "destination": "Go straight towards {destination}"
+                "default": "सीधे जाइए" /*"Go straight",*/
+                "name": "सीधे {way_name} पर जाएं"/*"Go straight onto {way_name}",*/
+                "destination": "सीधे {destination} की ओर जाएं"/*"Go straight towards {destination}"*/
             }
         },
         "use lane": {
             "no_lanes": {
-                "default": "Continue straight"
+                "default": "सीधा जारी रखें"/*"Continue straight"*/
             },
             "default": {
                 "default": "{lane_instruction}"
