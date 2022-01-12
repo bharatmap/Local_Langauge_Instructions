@@ -177,49 +177,50 @@
             "sharp left": {
                 "default": "पूर्ण बाएँ मिलाएँ" /*"Merge sharp left",*/
                 "name": "बाएँ पर पूर्ण मर्ज करें {way_name}" /*"Merge sharp left onto {way_name}",*/
-                "destination": "{गंतव्य} की ओर पूर्ण बाईं ओर मर्ज करें"/*"Merge sharp left towards {destination}"*/
+                "destination": "{destination} की ओर पूर्ण बाईं ओर मर्ज करें"/*"Merge sharp left towards {destination}"*/
             },
             "sharp right": {
-                "default": "Merge sharp right",
-                "name": "Merge sharp right onto {way_name}",
-                "destination": "Merge sharp right towards {destination}"
+                "default": "शार्प राइट मर्ज करें"/*"Merge sharp right",*/
+                "name": "{way_name} पर ठीक दाईं ओर मर्ज करें"/*"Merge sharp right onto {way_name}",*/
+                "destination": "{destination} की ओर ठीक दाईं ओर मर्ज करें"/*"Merge sharp right towards {destination}"*/
             },
+            
             "uturn": {
-                "default": "Make a U-turn",
-                "name": "Make a U-turn onto {way_name}",
-                "destination": "Make a U-turn towards {destination}"
-            }
-        },
-        "new name": {
+                "default":  "एक यू - टर्न लें"  /* "Make a U-turn",*/
+                "name": "{way_name} पर यू-टर्न लें" /*Make a U-turn onto {way_name}*/
+                "destination": "{destination} की ओर यू-टर्न लें"  
+               
+            },
+           "new name": {
             "default": {
-                "default": "Continue {modifier}",
-                "name": "Continue {modifier} onto {way_name}",
-                "destination": "Continue {modifier} towards {destination}"
+                "default": "{modifier} की ओर जारी रखें"/*"Continue {modifier}",*/
+                "name": "{way_name} पर {modifier} जारी रखें"/*"Continue {modifier} onto {way_name}",*/
+                "destination": "{destination} की ओर {modifier} जारी रखें"/*"Continue {modifier} towards {destination}"*/
             },
             "sharp left": {
-                "default": "Take a sharp left",
-                "name": "Take a sharp left onto {way_name}",
-                "destination": "Take a sharp left towards {destination}"
+                "default": "पूरी तरह से बाईं ओर ले जाएं"/*"Take a sharp left",*/
+                "name": "{way_name} की ओर ठीक बाईं ओर मुड़ें"/*"Take a sharp left onto {way_name}",*/
+                "destination": "{destination} की ओर ठीक बाईं ओर मुड़ें"/*"Take a sharp left towards {destination}"*/
             },
             "sharp right": {
-                "default": "Take a sharp right",
-                "name": "Take a sharp right onto {way_name}",
-                "destination": "Take a sharp right towards {destination}"
+                "default": "पूरी तरह से दाईं ओर ले जाएं"/*"Take a sharp right",*/
+                "name": "{way_name} पर ठीक दाएं मुड़ें"/*"Take a sharp right onto {way_name}",*/
+                "destination": "{destination} की ओर ठीक दाएं मुड़ें"/*"Take a sharp right towards {destination}"*/
             },
             "slight left": {
-                "default": "Continue slightly left",
-                "name": "Continue slightly left onto {way_name}",
-                "destination": "Continue slightly left towards {destination}"
+                "default": "थोड़ा बाएँ जारी रखें"/*"Continue slightly left",*/
+                "name": "{way_name} पर थोड़ा बाएं चलते रहें"/*"Continue slightly left onto {way_name}",*/
+                "destination": "{destination} की ओर थोड़ा बाएं चलते रहें"/*"Continue slightly left towards {destination}"*/
             },
             "slight right": {
-                "default": "Continue slightly right",
-                "name": "Continue slightly right onto {way_name}",
-                "destination": "Continue slightly right towards {destination}"
+                "default": "थोड़ा दाएं जारी रखें"/*"Continue slightly right",*/
+                "name": "{way_name} पर थोड़ा दाएं चलते रहें"/*"Continue slightly right onto {way_name}",*/
+                "destination": "{destination} की ओर थोड़ा आगे बढ़ें"/*"Continue slightly right towards {destination}"*/
             },
             "uturn": {
-                "default": "Make a U-turn",
-                "name": "Make a U-turn onto {way_name}",
-                "destination": "Make a U-turn towards {destination}"
+                "default":  "एक यू - टर्न लें"  /* "Make a U-turn",*/
+                "name": "{way_name} पर यू-टर्न लें" /*Make a U-turn onto {way_name}*/
+                "destination": "{destination} की ओर यू-टर्न लें"/*"Make a U-turn towards {destination}"*/
             }
         },
         "notification": {
