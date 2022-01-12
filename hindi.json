@@ -238,39 +238,39 @@
            },
         "off ramp": {
             "default": {
-                "default": "Take the ramp",
-                "name": "Take the ramp onto {way_name}",
-                "destination": "Take the ramp towards {destination}"
+                "default": "रैंप लें"/*"Take the ramp",*/
+                "name": "{way_name} पर रैंप लें"/*"Take the ramp onto {way_name}",*/
+                "destination": "रैंप लें {destination} की ओर"/*"Take the ramp towards {destination}"*/
             },
             "left": {
-                "default": "Take the ramp on the left",
-                "name": "Take the ramp on the left onto {way_name}",
-                "destination": "Take the ramp on the left towards {destination}"
+                "default": "बाईं ओर रैंप को लें"/*"Take the ramp on the left",*/
+                "name": "{way_name} पर बाईं ओर रैंप लें"  /*Take the ramp on the left onto {way_name}*/
+                "destination": "रैंप को बाईं ओर {destination} की ओर ले जाएं"/*"Take the ramp on the left towards {destination}"*/
             },
             "right": {
-                "default": "Take the ramp on the right",
-                "name": "Take the ramp on the right onto {way_name}",
-                "destination": "Take the ramp on the right towards {destination}"
+                "default": "दाईं ओर रैंप को लें"/*"Take the ramp on the right",*/
+                "name": "{way_name} पर दाईं ओर रैंप लें",
+                "destination": "{destination} की ओर दाईं ओर रैंप को ले "/*"Take the ramp on the right towards {destination}"*/
             },
             "sharp left": {
-                "default": "Take the ramp on the left",
-                "name": "Take the ramp on the left onto {way_name}",
-                "destination": "Take the ramp on the left towards {destination}"
+                "default": "पूरी बाईं ओर रैंप लें" /*"Take the ramp on the sharp left",*/
+                "name": "{way_name} पर पूरी बाईं ओर रैंप लें" /*"Take the ramp on the sharp left onto {way_name}",*/
+                "destination": "{destination} पर पूरी बाईं ओर रैंप लें"/*"Take the ramp on the sharp left towards {destination}"*/
             },
             "sharp right": {
-                "default": "Take the ramp on the right",
-                "name": "Take the ramp on the right onto {way_name}",
-                "destination": "Take the ramp on the right towards {destination}"
+                "default": "पूरी दाईं ओर रैंप लें"/*"Take the ramp on the sharp right",*/
+                "name": "{way_name} पर पूरी दाईं ओर रैंप लें"/*"Take the ramp on the sharp right onto {way_name}",*/
+                "destination": "{destination} पर पूरी दाईं ओर रैंप लें"/*"Take the ramp on the sharp right towards {destination}"*/
             },
             "slight left": {
-                "default": "Take the ramp on the left",
-                "name": "Take the ramp on the left onto {way_name}",
-                "destination": "Take the ramp on the left towards {destination}"
+                "default": "थोड़ा दाईं ओर रैंप लें"/*"Take the ramp on the slight left",*/
+                "name": "{way_name} पर थोड़ा बाईं ओर रैंप लें"/*"Take the ramp on the slight left onto {way_name}",*/
+                "destination": "{destination} पर थोड़ा बाईं ओर रैंप लें"/*"Take the ramp on the slight left towards {destination}"*/
             },
             "slight right": {
-                "default": "Take the ramp on the right",
-                "name": "Take the ramp on the right onto {way_name}",
-                "destination": "Take the ramp on the right towards {destination}"
+                "default": "थोड़ा दाईं ओर रैंप लें"/*"Take the ramp on the slight right",*/
+                "name": "{way_name} पर थोड़ा दाईं ओर रैंप लें"/*"Take the ramp on the slight right onto {way_name}",*/
+                "destination": "{destination} पर थोड़ा दाईं ओर रैंप लें"/*"Take the ramp on the slight right towards {destination}"*/
             }
         },
         "on ramp": {
