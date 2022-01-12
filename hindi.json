@@ -154,35 +154,35 @@
             },
             "uturn": {
                 "default":  "एक यू - टर्न लें"  /* "Make a U-turn",*/
-                "name": "Make a U-turn onto {way_name}",
-                "destination": "Make a U-turn towards {destination}"
+                "name": "{way_name} पर यू-टर्न लें" /*Make a U-turn onto {way_name}*/
+                "destination": "{destination} की ओर यू-टर्न लें" */ 
             }
         },
         "merge": {
             "default": {
-                "default": "Merge {modifier}",
-                "name": "Merge {modifier} onto {way_name}",
-                "destination": "Merge {modifier} towards {destination}"
+                "default": "मर्ज {modifier}" /*Merge {modifier}*/
+                "name": "{way_name} पर {modifier} मर्ज करें" /*"Merge {modifier} onto {way_name}",*/
+                "destination": "{destination} की ओर {modifier} मर्ज करें" /*"Merge {modifier} towards {destination}"*/
             },
             "slight left": {
-                "default": "Merge left",
-                "name": "Merge left onto {way_name}",
-                "destination": "Merge left towards {destination}"
+                "default": "थोड़ा बाएँ मर्ज करें" /*"Merge slight left",*/
+                "name": "{way_name} थोड़ा बाईं ओर मर्ज करें"/*"Merge slight left onto {way_name}",*/
+                "destination": "{destination} की ओर थोड़ा बाएं मर्ज करें"/*"Merge slight left towards {destination}"*/
             },
             "slight right": {
-                "default": "Merge right",
-                "name": "Merge right onto {way_name}",
-                "destination": "Merge right towards {destination}"
+                "default": "थोड़ा दाएं मर्ज करें" /*"Merge slight right",*/
+                "name": "{way_name}थोड़ा दाईं ओर मर्ज करें"/*"Merge slight right onto {way_name}",*/
+                "destination": "{destination} की ओर थोड़ा दाएं मर्ज करें"/*"Merge slight right towards {destination}"*/
             },
             "sharp left": {
-                "default": "Merge left",
-                "name": "Merge left onto {way_name}",
-                "destination": "Merge left towards {destination}"
+                "default": "पूर्ण बाएँ मिलाएँ" /*"Merge sharp left",*/
+                "name": "बाएँ पर पूर्ण मर्ज करें {way_name}" /*"Merge sharp left onto {way_name}",*/
+                "destination": "{गंतव्य} की ओर पूर्ण बाईं ओर मर्ज करें"/*"Merge sharp left towards {destination}"*/
             },
             "sharp right": {
-                "default": "Merge right",
-                "name": "Merge right onto {way_name}",
-                "destination": "Merge right towards {destination}"
+                "default": "Merge sharp right",
+                "name": "Merge sharp right onto {way_name}",
+                "destination": "Merge sharp right towards {destination}"
             },
             "uturn": {
                 "default": "Make a U-turn",
