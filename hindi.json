@@ -225,16 +225,17 @@
         },
         "notification": {
             "default": {
-                "default": "Continue {modifier}",
-                "name": "Continue {modifier} onto {way_name}",
+                "default": "{modifier} जारी रखें"/*"Continue {modifier}",*/
+                "name": "{way_name} पर {modifier} जारी रखें"/*"Continue {modifier} onto {way_name}",*/
                 "destination": "Continue {modifier} towards {destination}"
             },
             "uturn": {
-                "default": "Make a U-turn",
-                "name": "Make a U-turn onto {way_name}",
-                "destination": "Make a U-turn towards {destination}"
+                
+                "default":  "एक यू - टर्न लें"  /* "Make a U-turn",*/
+                "name": "{way_name} पर यू-टर्न लें" /*Make a U-turn onto {way_name}*/
+                "destination": "{destination} की ओर यू-टर्न लें"/*"Make a U-turn towards {destination}"*/
             }
-        },
+           },
         "off ramp": {
             "default": {
                 "default": "Take the ramp",
